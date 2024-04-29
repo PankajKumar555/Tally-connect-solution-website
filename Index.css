@@ -11,7 +11,7 @@ body {
 }
 
 #header {
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -267,7 +267,7 @@ ul {
   height: 60vh;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 800px){
   
    
   #navbar {
@@ -307,12 +307,20 @@ ul {
   }
   
   
-  .wrapper {
+  /* .wrapper {
     display: block;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
     
+  } */
+  .wrapper .static-txt {
+    font-size: 25px;
+  }
+  
+  .wrapper .dynamic-txts {
+    font-size: 20px;
+    height: 100px;
   }
   
   
